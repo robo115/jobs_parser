@@ -8,7 +8,7 @@ import time
 
 
 BASE_URL = 'https://www.jobs.ge/?page=1&q=&cid=6&lid=&jid='
-token = "6021779016:AAH5coQ2VNhy_7_TUy9KBnt-r93JfD-L9qY"
+token = ""
 
 bot = telebot.TeleBot(token)
 
