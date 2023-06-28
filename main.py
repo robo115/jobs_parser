@@ -41,7 +41,6 @@ def message_info(message):
     soup = BeautifulSoup(response.content, 'html.parser')
     jobs = soup.find_all('a', class_='vip')
     for job in jobs:
-        print(message.text)
         if message.text in job.text:
             href = job['href']
             job_url = f'https://www.jobs.ge{href}'
